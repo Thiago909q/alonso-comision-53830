@@ -7,18 +7,36 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:sans-serif;
+    box-sizing: border-box;
 }
 
-
-.section-header{
-    display: flex;
-    flex-direction: column;
-    background-color: #DA7600;
-    height: 120px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+body{
+    background-color:#aaa;  
     
+}
 
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #DA7600;
+    text-decoration: none;
+    font-family:sans-serif;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+
+.ul-navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
 }
 
 
@@ -27,34 +45,35 @@
     display: flex;
     justify-content: center;
     font-size:2.5rem;
+    background-color: #DA7600;
     
 }
 
-.navbar{
+
+
+.navbar li {  
     display: flex;
-    justify-content: center;
-    text-decoration: none;
-    list-style: none;
-
-
-}
-
-nav ul li a{
-    display: flex;                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
-    padding: 4px;
+    flex-direction: row;                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+    padding: 7px 5px;
     text-decoration: none;
     background-color: hsla(0, 0%, 0%, 0.5);
     color: black;
-    font-size:1.5rem;
     border: 0.5px solid black;
-    border-top-left-radius: 60px;
-    border-bottom-left-radius: 60px;
-    border-bottom-right-radius: 60px;
-    border-top-right-radius: 60px;
-    margin: 5px;
-    height: 40px;
+    border-radius: 60px;
+    margin: 20px 2px;
+    min-height: 10px;
+    flex-wrap: wrap;
+
 
 }
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    font-size:1.3rem;
+    text-align:center;
+}
+
 
 .section1{
     display:grid;
@@ -68,64 +87,143 @@ nav ul li a{
     ;
     justify-content: center;
     align-content: center;
-    gap: .3125rem;
+    gap: .1rem;
     justify-items: center;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:sans-serif;
 
 }
 
 .div1{
     grid-area: div1;
+    text-wrap: balance;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 
 }
 .div2{
     grid-area: div2;
+    text-wrap: balance;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 .div3{
     grid-area: div3;
+    text-wrap: balance;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
     
 }
 .div4{
     grid-area: div4;
+    text-wrap: balance;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 .div5{
     grid-area: div5;
+    text-wrap: balance;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 .div6{
     grid-area: div6;
+    text-wrap: balance;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 .div7{
     grid-area: div7;
+    text-wrap: balance;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+
 }
 .div8{
     grid-area: div8;
+    text-wrap: balance;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 .div9{
     grid-area: div9;
+    text-wrap: balance;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 .div10{
     grid-area: div10;
+    text-wrap: balance;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 .div11{
     grid-area: div11;
+    text-wrap: balance;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 .div12{
     grid-area: div12;
+    text-wrap: balance;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 
 
 .divconocenos1{
-    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 40px;
     background-color: hsla(0, 0%, 0%, 0.5);
     color: black;
-    border-radius: 40px;
-    width: 22%;
     margin: auto;
+    border-radius: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
-    text-align: center;
+    padding: 10px;      
+}
 
+.divconocenosh3{
+    text-align: center;
 }
 
 .imgconocenos img{
@@ -143,10 +241,9 @@ nav ul li a{
 
 .divconocenos2 p {
     color: white;
-
     border: 5px;
     padding: 5px;
-    
+    text-wrap: balance;
 }
 
 .grid-contactanos{
@@ -180,7 +277,6 @@ nav ul li a{
     margin-bottom: 5px;
     width: 800px;
     padding: 10px;
-    background-color: #ffffff;
     margin: auto;
 }
 
@@ -223,6 +319,8 @@ nav ul li a{
     grid-template-columns: repeat(7,1fr);
     grid-template-rows: repeat(5,6.25rem);
 }
+
+
 
 
 .tienda .div15{
@@ -379,13 +477,15 @@ nav ul li a{
     display: grid;
     width: 100%;
     height: 1000px;
-    grid-template-columns: repeat(4,25%);
-    grid-template-rows: repeat(5,200px);
+    list-style: none;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
     justify-content: center;
     align-content: center;
     justify-items: center;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif 
+    font-family: sans-serif;
+    color: black;
     
 }
 
@@ -415,6 +515,7 @@ nav ul li a{
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     margin: 15px;
+
 }
 
 .atencion-3{
@@ -422,12 +523,12 @@ nav ul li a{
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;    
-    background-image: url(../assets/relog\ 2.webp);
-    background-position: center center;
-    background-size: 100% 100%;
+    background-image: linear-gradient(#000b, #000b), url(../assets/relog\ 2.webp);
+    justify-self: center;
+    align-self: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-color: #DA7600;
-    color: #ff0202;
+    color:#DA7600;
     padding: 150px;
     padding-left: 300px;
     padding-right: 300px;
@@ -441,16 +542,18 @@ nav ul li a{
     grid-column-end: 5;
     grid-row-start: 3;
     grid-row-end: 4;
-    background-image: url(../assets/relog\ 1.webp);
-    background-position: center center;
+    background-image: linear-gradient(#000b, #000b), url(../assets/relog\ 1.webp);
+    justify-self: center;
+    align-self: center;
+    background-size: cover;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-color: #DA7600;
-    color: #ff0000;
+    color: #DA7600;
     padding: 150px;
     padding-left: 300px;
     padding-right: 300px;
     margin: 20px;
+
 
 }
 
@@ -469,6 +572,13 @@ nav ul li a{
     margin: 15px;
     text-decoration: none;
     color: black;
+    
+}
+
+.atencion-5 a{
+    text-decoration: none;
+    color: #DA7600;
+
 }
 
 .atencion-6{
@@ -486,6 +596,11 @@ nav ul li a{
     margin: 15px;
     text-decoration: none;
     color: black;
+}
+
+.atencion-6 a{
+    text-decoration: none;
+    color: #DA7600;
 
 }
 
@@ -506,6 +621,12 @@ nav ul li a{
     color: black;
 }
 
+.atencion-7 a{
+    text-decoration: none;
+    color: #DA7600;
+
+}
+
 .atencion-8{
     grid-column-start: 4;
     grid-column-end: 5;
@@ -519,57 +640,229 @@ nav ul li a{
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     margin: 15px;
-    text-decoration: none;
     color: black;
 }
 
+.atencion-8 a{
+    text-decoration: none;
+    color: #DA7600;
+
+}
 
 
-
-
-
-
-.footer1{
+footer{
     background-color: #DA7600;
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    padding: 10 px;
-    list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    
 }
 
-.navbarfooter{
-    display: flex;
-    padding: 5px;
+.contenedor-footer{
+    width: 100%;
+    padding: 20px 30px 20px;
     list-style: none;
-    flex-direction: row;
 }
 
-.navbarfooter li a{
-    padding: 10px;
+.footernav{
+    margin: 30px 0px;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
     list-style: none;
+}
+
+.footernav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+    transition: 0.5s;
+    padding: 7px 5px;
     text-decoration: none;
     background-color: hsla(0, 0%, 0%, 0.5);
     color: black;
-    font-size: 1.25rem;
-    border: 1px solid black;
-    border-top-left-radius: 60px;
-    border-bottom-left-radius: 60px;
-    border-bottom-right-radius: 60px;
-    border-top-right-radius: 60px;
-    flex-direction: row;
+    border: 0.5px solid black;
+    border-radius: 60px;
+    margin: 20px 2px;
+    min-height: 10px;
+    flex-wrap: wrap;
 }
 
-.redes{
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-    gap: 20px;
-    flex-direction: row;
-    height: 20px;
-    justify-content: flex-end;
-}   
+.footernav ul li a:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .section1{
+        display:grid;
+        width: 100%;                                                                                                                                                          
+        grid-template-columns:repeat(3,1fr);
+        grid-template-rows:repeat(4,1fr);
+        grid-template-areas:
+        "div1 div2 div3"
+        "div4 div5 div6"
+        "div7 div8 div9"
+        "div10 div11 div12"
+        ;
+    
+    }
+
+
+    .div1contactanos{
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        height: 50px;
+        background-color: hsla(0, 0%, 0%, 0.5);
+        color: black;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;   
+    }
+
+    
+    
+    
+    .imagen-contactanos{
+        height: 500px;
+        width: 100%;
+    }
+    
+    .formulario1{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: 600px;
+        padding: 10px;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .ul-navbar{
+        flex-direction: column;
+        margin: 10px 80px;
+        
+    }
+    .navbar ul li {
+        justify-content: center;
+        margin: 5px 0px;}
+    
+    
+    .section1{
+        display:grid;
+        width: 100%;                                                                                                                                                          
+        grid-template-columns:repeat(1,1fr);
+        grid-template-rows:repeat(4,1fr);
+        grid-template-areas:
+        "div1" 
+        "div2" 
+        "div3"
+        "div4" 
+        "div5" 
+        "div6"
+        "div7" 
+        "div8" 
+        "div9"
+        "div10" 
+        "div11" 
+        "div12"
+        ;
+    
+    }
+
+    .divconocenos1{
+        display: flex;
+        flex-direction: row;
+        width: 150px;
+        height: 40px;
+        background-color: hsla(0, 0%, 0%, 0.5);
+        color: black;
+        margin: auto;
+        border-radius: 40px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px;      
+    }
+    
+    .divconocenosh3{
+        text-align: center;
+    }
+
+
+    .imgconocenos img{
+        width: 100%;
+        height: 300px;
+        border-radius: 10px;
+    }
+
+        .div1contactanos{
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        height: 50px;
+        background-color: hsla(0, 0%, 0%, 0.5);
+        color: black;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;   
+    }
+
+    
+    
+    
+    .imagen-contactanos{
+        height: 400px;
+        width: 100%;
+    }
+    
+    .formulario1{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: 400px;
+        padding: 10px;
+        margin: auto;
+    }
+
+    .footernav ul {
+        flex-direction: column;
+    }
+    .footernav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .formulario1{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: 360px;
+        padding: 10px;
+        margin: auto;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .formulario1{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: 300px;
+        padding: 10px;
+        margin: auto;
+    }
+}
+
+
+
 
