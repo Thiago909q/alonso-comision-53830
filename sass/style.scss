@@ -622,42 +622,45 @@ footer{
         ;
     
     }
-    .div1contactanos{
-        display: flex;
-        flex-direction: row;
-        width: 200px;
-        height: 50px;
-        background-color: hsla(0, 0%, 0%, 0.5);
-        color: black;
-        justify-content: center;
-        align-items: center;
-        border-radius: 40px;   
-    }
-    .imagen-contactanos{
-        height: 500px;
-        width: 100%;
-    }
-    .formulario1{
-        margin-top: 10px;
-        margin-bottom: 5px;
-        width: 600px;
-        padding: 10px;
-        margin: auto;
+    .grid-dos{
+        .div1contactanos{
+            display: flex;
+            flex-direction: row;
+            width: 200px;
+            height: 50px;
+            background-color: hsla(0, 0%, 0%, 0.5);
+            color: black;
+            justify-content: center;
+            align-items: center;
+            border-radius: 40px;   
+        }
+        .imagen-contactanos{
+            img{
+                height: 500px;
+                width: 100%;
+            }
+        }
+        .formulario1{
+            margin-top: 10px;
+            margin-bottom: 5px;
+            width: 600px;
+            padding: 10px;
+            margin: auto;
+        }
     }
 
 }
 
 @media screen and (max-width: 425px) {
-    .navbar {
-        ul{
+    .navbar{
+        .ul-navbar{
             flex-direction: column;
             margin: 10px 80px;
             li{
                 justify-content: center;
-                margin: 5px 0px;
+                margin: 5px 0px;}
             }
         }
-    }
     
     
     
@@ -683,57 +686,56 @@ footer{
     
     }
 
-    .divconocenos1{
-        display: flex;
-        flex-direction: row;
-        width: 150px;
-        height: 40px;
-        background-color: hsla(0, 0%, 0%, 0.5);
-        color: black;
-        margin: auto;
-        border-radius: 40px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        padding: 10px;      
-    }
-    
-    .divconocenosh3{
-        text-align: center;
-    }
-
-
-    .imgconocenos img{
-        width: 100%;
-        height: 300px;
-        border-radius: 10px;
+    .conocenos{
+        .divconocenos1{
+            display: flex;
+            flex-direction: row;
+            width: 150px;
+            height: 40px;
+            background-color: hsla(0, 0%, 0%, 0.5);
+            color: black;
+            margin: auto;
+            border-radius: 40px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            padding: 10px;  
+        }
+        .imgconocenos{
+            img{
+                width: 100%;
+                height: 300px;
+                border-radius: 10px;
+            }
+        }
     }
 
+    .grid-dos{
         .div1contactanos{
-        display: flex;
-        flex-direction: row;
-        width: 200px;
-        height: 50px;
-        background-color: hsla(0, 0%, 0%, 0.5);
-        color: black;
-        justify-content: center;
-        align-items: center;
-        border-radius: 40px;   
-    }
+            display: flex;
+            flex-direction: row;
+            width: 200px;
+            height: 50px;
+            background-color: hsla(0, 0%, 0%, 0.5);
+            color: black;
+            justify-content: center;
+            align-items: center;
+            border-radius: 40px; 
+        }
 
-    
-    
-    
-    .imagen-contactanos{
-        height: 400px;
-        width: 100%;
-    }
-    
-    .formulario1{
-        margin-top: 10px;
-        margin-bottom: 5px;
-        width: 400px;
-        padding: 10px;
-        margin: auto;
+        .imagen-contactanos{
+            .div
+            img{
+                height: 400px;
+                width: 100%;
+            }
+        }
+        .formulario1{
+            margin-top: 10px;
+            margin-bottom: 5px;
+            width: 400px;
+            padding: 10px;
+            margin: auto;
+        }
     }
 
     .footernav ul {
@@ -747,23 +749,27 @@ footer{
 }
 
 @media screen and (max-width: 375px) {
-    .formulario1{
-        margin-top: 10px;
-        margin-bottom: 5px;
-        width: 360px;
-        padding: 10px;
-        margin: auto;
+    .grid-dos{
+        .formulario1{
+            margin-top: 10px;
+            margin-bottom: 5px;
+            width: 360px;
+            padding: 10px;
+            margin: auto;
+        }
     }
 }
 
 
 @media screen and (max-width: 320px) {
-    .formulario1{
-        margin-top: 10px;
-        margin-bottom: 5px;
-        width: 300px;
-        padding: 10px;
-        margin: auto;
+    .grid-dos{
+        .formulario1{
+            margin-top: 10px;
+            margin-bottom: 5px;
+            width: 300px;
+            padding: 10px;
+            margin: auto;
+        }
     }
 }
 
