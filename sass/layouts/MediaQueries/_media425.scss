@@ -1,0 +1,501 @@
+@media screen and (max-width: 425px) {
+    .navbar{
+        .ul-navbar{
+            flex-direction: column;
+            margin: 10px 80px;
+            li{
+                justify-content: center;
+                margin: 5px 0px;}
+            }
+        }
+    
+    
+    
+    .section1{
+        display:grid;
+        width: 100%;                                                                                                                                                          
+        grid-template-columns:repeat(1,1fr);
+        grid-template-rows:repeat(4,1fr);
+        grid-template-areas:
+        "div1" 
+        "div2" 
+        "div3"
+        "div4" 
+        "div5" 
+        "div6"
+        "div7" 
+        "div8" 
+        "div9"
+        "div10" 
+        "div11" 
+        "div12"
+        ;
+    
+    }
+
+    .conocenos{
+        .divconocenos1{
+            display: flex;
+            flex-direction: row;
+            width: 150px;
+            height: 40px;
+            background-color: hsla(0, 0%, 0%, 0.5);
+            color: black;
+            margin: auto;
+            border-radius: 40px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            padding: 10px;  
+        }
+        .imgconocenos{
+            img{
+                width: 100%;
+                height: 300px;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    .grid-dos{
+        .div1contactanos{
+            display: flex;
+            flex-direction: row;
+            width: 200px;
+            height: 50px;
+            background-color: hsla(0, 0%, 0%, 0.5);
+            color: black;
+            justify-content: center;
+            align-items: center;
+            border-radius: 40px; 
+        }
+
+        .imagen-contactanos{
+            .div
+            img{
+                height: 400px;
+                width: 100%;
+            }
+        }
+        .formulario1{
+            margin-top: 10px;
+            margin-bottom: 5px;
+            width: 400px;
+            padding: 10px;
+            margin: auto;
+        }
+    }
+    .tienda{
+        display: grid;
+        width: 100%;
+        min-height: 750px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(18,1fr);
+        .div14{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            border-bottom: 1px solid #000;
+            display: grid;
+            justify-items: center;
+            align-items: end;
+            padding-bottom:20px ;
+        }
+        .div15{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 5;
+            grid-row-end: 6;
+        }
+        .div16{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 7;
+            grid-row-end: 8;
+            border-bottom: 1px solid #000;
+            display: grid;
+            justify-content: center;
+            align-content: end;
+            padding-bottom: 20px;
+        }
+        .div17{
+            display: none;
+        }
+        .div18{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            background-image:url(../assets/tisot2.png);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: center;
+            
+            
+        }
+        .div19{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 4;
+            grid-row-end: 5;
+            p{
+                display: flex;
+                box-sizing: border-box;
+                flex-wrap: wrap;
+                background-color: #0000008f;
+                margin: 15px;
+                padding: 15px;
+                border-radius: 20px;
+            }
+        }
+        .div20{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 6;
+            grid-row-end: 7;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            margin: 50px;
+            background-color: #0000008f ;
+            border-radius: 20px;
+        }
+        .div21{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 8;
+            grid-row-end: 9;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            margin: 50px;
+            input{
+                background-color: #0000008f;
+                padding: 5px;
+                border-radius: 20px;
+            }
+    
+        }
+        .div22{
+            display: none;
+        }
+        .div23{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 9;
+            grid-row-end: 10;
+            border-bottom: 1px solid #000;
+            border-left: none;
+            display: grid;
+            justify-content: center;
+            align-content: end;
+            padding-bottom: 20px;
+        }
+        .div24{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 10;
+            grid-row-end: 11;
+            border-bottom: 1px solid #000;
+            border-left: none;
+            display: grid;
+            align-content: end;
+            padding-bottom: 20px;
+            padding-left: 20px;
+        }
+        .div25{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 10;
+            grid-row-end: 11;
+            border-bottom: 1px solid #000;
+            display: grid;
+            justify-content: end;
+            align-content: end;
+            padding-bottom: 20px;
+            h5{
+                display: grid;
+                margin-right: 20px;
+            }
+        }
+        .div26{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 11;
+            grid-row-end: 13;
+            border-bottom: 1px solid #000;
+            border-left:none;
+            display: grid;
+            justify-content: baseline;
+            align-content: center;
+            padding-left: 20px;
+        }
+        .div27{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 11;
+            grid-row-end: 12;
+            display: grid;
+            justify-content: center;
+            align-items: end;
+    
+        }
+        .div28{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 12;
+            grid-row-end: 13;
+            border-bottom: 1px solid #000;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+        .div29{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 13;
+            grid-row-end: 14;
+            display: grid;
+            padding-top: 10px;
+            padding-left: 20px;
+        }
+        .div30{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 13;
+            grid-row-end: 14;
+            display: grid;
+            padding-top: 10px;
+            h5{
+                display: grid;
+                margin-right: 20px;
+            }
+        }
+        .div31{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 14;
+            grid-row-end: 15;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            h3{
+                display: grid;
+                background-color: map-get($colores , fondoprincipal);
+                padding: 10px 60px;
+                border-radius: 20px;
+                margin: 10px 0px;
+            }
+        }
+        .div32{
+            display: grid;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 15;
+            grid-row-end: 16;
+            border-bottom: 1px solid #000;
+            align-items: end;
+            h3{
+                display: grid;
+                margin-left: 20px;
+                margin-bottom: 20px;
+            }
+        }
+        .div33{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 16;
+            grid-row-end: 17;
+            margin: 40px 15px;
+        }
+    
+        .div34{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 17;
+            grid-row-end: 18; 
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            h3{
+                display: grid;
+                background-color: map-get($colores , fondoprincipal);
+                padding: 10px 60px;
+                border-radius: 20px;
+                margin: 10px 0px;
+                justify-content: center;
+                align-content: center;
+                justify-items: center;
+                align-items: center;
+            }
+        }
+        .div35{
+            display: none;
+        }
+    }
+    .section-atencion{
+        display: grid;
+        width: 100%;
+        min-height: 1000px;
+        list-style: none;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(11,1fr);
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        font-family: sans-serif;
+        color: black;
+        gap: 10px;
+        .atencion-1{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            border-top-left-radius: 60px;
+            border-bottom-left-radius: 60px;
+            border-bottom-right-radius: 60px;
+            border-top-right-radius: 60px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            margin: 15px;
+        }
+        .atencion-2{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            border-top-left-radius: 60px;
+            border-bottom-left-radius: 60px;
+            border-bottom-right-radius: 60px;
+            border-top-right-radius: 60px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            margin: 15px;
+        }
+        .atencion-3{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 5;    
+            background-image: linear-gradient(#000b, #000b), url(../assets/relog2.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: map-get($colores , colorprincipal);
+            display: grid;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-content: center;
+        }
+        .atencion-4{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 7;
+            grid-row-end: 9;
+            background-image: linear-gradient(#000b, #000b), url(../assets/relog1.webp);
+            justify-self: center;
+            align-self: center;
+            background-size: cover;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            color: map-get($colores , colorprincipal);
+            display: grid;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-content: center;
+        }
+        .atencion-5{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 5;
+            grid-row-end: 6;
+            list-style: none;
+            border-top-left-radius: 60px;
+            border-bottom-left-radius: 60px;
+            border-bottom-right-radius: 60px;
+            border-top-right-radius: 60px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            margin: 15px;
+            text-decoration: none;
+            color: black;
+            a{
+                text-decoration: none;
+                color: map-get($colores , colorprincipal);        
+            }
+        }
+        .atencion-6{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 6;
+            grid-row-end: 7;
+            list-style: none;
+            border-top-left-radius: 60px;
+            border-bottom-left-radius: 60px;
+            border-bottom-right-radius: 60px;
+            border-top-right-radius: 60px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            margin: 15px;
+            text-decoration: none;
+            color: black;
+            a{
+                text-decoration: none;
+                color: map-get($colores , colorprincipal);
+            }
+        }
+        .atencion-7{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 9;
+            grid-row-end: 10;
+            list-style: none;
+            border-top-left-radius: 60px;
+            border-bottom-left-radius: 60px;
+            border-bottom-right-radius: 60px;
+            border-top-right-radius: 60px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            margin: 15px;
+            text-decoration: none;
+            color: black;
+            a{
+                text-decoration: none;
+                color: map-get($colores , colorprincipal);
+            }
+        }
+        .atencion-8{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 10;
+            grid-row-end: 11;
+            list-style: none;
+            border-top-left-radius: 60px;
+            border-bottom-left-radius: 60px;
+            border-bottom-right-radius: 60px;
+            border-top-right-radius: 60px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            margin: 15px;
+            color: black;
+            a{
+                text-decoration: none;
+                color: map-get($colores , colorprincipal);
+            }
+        }
+    }
+    footer{
+        .contenedor-footer{
+                ul{
+                    flex-direction: column;
+                    margin: 10px 80px;
+                    li{
+                        justify-content: center;
+                        margin: 5px 0px;
+                    }
+                }
+            }
+        }
+}

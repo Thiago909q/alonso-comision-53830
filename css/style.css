@@ -189,6 +189,167 @@ body {
     .section1 .div12:hover {
       background-color: #0000009f; }
 
+.section-atencion {
+  display: grid;
+  width: 100%;
+  min-height: 1000px;
+  list-style: none;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: black;
+  gap: 10px; }
+  .section-atencion .atencion-1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 15px; }
+  .section-atencion .atencion-2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 15px; }
+  .section-atencion .atencion-3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-image: linear-gradient(#000b, #000b), url(../assets/relog2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #DA7600;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: center; }
+  .section-atencion .atencion-4 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-image: linear-gradient(#000b, #000b), url(../assets/relog1.webp);
+    justify-self: center;
+    align-self: center;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #DA7600;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: center; }
+  .section-atencion .atencion-5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    list-style: none;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 15px;
+    text-decoration: none;
+    color: black; }
+    .section-atencion .atencion-5:hover {
+      transform: scale(1.1);
+      background-color: #DA7600; }
+  .section-atencion a {
+    text-decoration: none;
+    color: #DA7600; }
+    .section-atencion a:hover {
+      color: #000; }
+  .section-atencion .atencion-6 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    list-style: none;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 15px;
+    text-decoration: none;
+    color: black; }
+    .section-atencion .atencion-6:hover {
+      transform: scale(1.1);
+      background-color: #DA7600; }
+    .section-atencion .atencion-6 a {
+      text-decoration: none;
+      color: #DA7600; }
+      .section-atencion .atencion-6 a:hover {
+        color: #000; }
+  .section-atencion .atencion-7 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    list-style: none;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 15px;
+    text-decoration: none;
+    color: black; }
+    .section-atencion .atencion-7:hover {
+      transform: scale(1.1);
+      background-color: #DA7600; }
+    .section-atencion .atencion-7 a {
+      text-decoration: none;
+      color: #DA7600; }
+      .section-atencion .atencion-7 a:hover {
+        color: #000; }
+  .section-atencion .atencion-8 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    list-style: none;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 15px;
+    color: black; }
+    .section-atencion .atencion-8:hover {
+      transform: scale(1.1);
+      background-color: #DA7600; }
+    .section-atencion .atencion-8 a {
+      text-decoration: none;
+      color: #DA7600; }
+      .section-atencion .atencion-8 a:hover {
+        color: #000; }
+
 .conocenos .divconocenos1 {
   display: flex;
   flex-direction: row;
@@ -517,167 +678,6 @@ body {
     grid-row-end: 10;
     border-right: 1px solid #000;
     border-top: 1px solid #000; }
-
-.section-atencion {
-  display: grid;
-  width: 100%;
-  min-height: 1000px;
-  list-style: none;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  justify-content: center;
-  align-content: center;
-  justify-items: center;
-  align-items: center;
-  font-family: sans-serif;
-  color: black;
-  gap: 10px; }
-  .section-atencion .atencion-1 {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    border-top-left-radius: 60px;
-    border-bottom-left-radius: 60px;
-    border-bottom-right-radius: 60px;
-    border-top-right-radius: 60px;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    margin: 15px; }
-  .section-atencion .atencion-2 {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    border-top-left-radius: 60px;
-    border-bottom-left-radius: 60px;
-    border-bottom-right-radius: 60px;
-    border-top-right-radius: 60px;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    margin: 15px; }
-  .section-atencion .atencion-3 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 5;
-    background-image: linear-gradient(#000b, #000b), url(../assets/relog2.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #DA7600;
-    display: grid;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-content: center; }
-  .section-atencion .atencion-4 {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 5;
-    background-image: linear-gradient(#000b, #000b), url(../assets/relog1.webp);
-    justify-self: center;
-    align-self: center;
-    background-size: cover;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    color: #DA7600;
-    display: grid;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-content: center; }
-  .section-atencion .atencion-5 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 5;
-    grid-row-end: 6;
-    list-style: none;
-    border-top-left-radius: 60px;
-    border-bottom-left-radius: 60px;
-    border-bottom-right-radius: 60px;
-    border-top-right-radius: 60px;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    margin: 15px;
-    text-decoration: none;
-    color: black; }
-    .section-atencion .atencion-5:hover {
-      transform: scale(1.1);
-      background-color: #DA7600; }
-  .section-atencion a {
-    text-decoration: none;
-    color: #DA7600; }
-    .section-atencion a:hover {
-      color: #000; }
-  .section-atencion .atencion-6 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 6;
-    grid-row-end: 7;
-    list-style: none;
-    border-top-left-radius: 60px;
-    border-bottom-left-radius: 60px;
-    border-bottom-right-radius: 60px;
-    border-top-right-radius: 60px;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    margin: 15px;
-    text-decoration: none;
-    color: black; }
-    .section-atencion .atencion-6:hover {
-      transform: scale(1.1);
-      background-color: #DA7600; }
-    .section-atencion .atencion-6 a {
-      text-decoration: none;
-      color: #DA7600; }
-      .section-atencion .atencion-6 a:hover {
-        color: #000; }
-  .section-atencion .atencion-7 {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 5;
-    grid-row-end: 6;
-    list-style: none;
-    border-top-left-radius: 60px;
-    border-bottom-left-radius: 60px;
-    border-bottom-right-radius: 60px;
-    border-top-right-radius: 60px;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    margin: 15px;
-    text-decoration: none;
-    color: black; }
-    .section-atencion .atencion-7:hover {
-      transform: scale(1.1);
-      background-color: #DA7600; }
-    .section-atencion .atencion-7 a {
-      text-decoration: none;
-      color: #DA7600; }
-      .section-atencion .atencion-7 a:hover {
-        color: #000; }
-  .section-atencion .atencion-8 {
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 6;
-    grid-row-end: 7;
-    list-style: none;
-    border-top-left-radius: 60px;
-    border-bottom-left-radius: 60px;
-    border-bottom-right-radius: 60px;
-    border-top-right-radius: 60px;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    margin: 15px;
-    color: black; }
-    .section-atencion .atencion-8:hover {
-      transform: scale(1.1);
-      background-color: #DA7600; }
-    .section-atencion .atencion-8 a {
-      text-decoration: none;
-      color: #DA7600; }
-      .section-atencion .atencion-8 a:hover {
-        color: #000; }
 
 footer {
   background-color: #DA7600;

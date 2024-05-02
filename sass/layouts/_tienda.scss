@@ -1,0 +1,289 @@
+.tienda{
+    display: grid;
+    width: 100%;
+    min-height: 750px;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(5,1fr);
+    .div14{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        border-bottom: 1px solid #000;
+        display: grid;
+        justify-items: center;
+        align-items: end;
+        padding-bottom:20px ;
+    }
+    .div15{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        justify-content: end;
+        align-content: center;
+        border-bottom: 1px solid #000;
+        display: grid;
+        justify-content: center;
+        align-content: end;
+        padding-bottom: 20px;
+    }
+    .div16{
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        border-bottom: 1px solid #000;
+        display: grid;
+        justify-content: center;
+        align-content: end;
+        padding-bottom: 20px;
+    }
+    .div17{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        border-bottom: 1px solid #000;
+        display: grid;
+        justify-content: center;
+        align-content: end;
+        padding-bottom: 20px;
+    }
+    .div18{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        background-image:url(../assets/tisot2.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center;
+        
+        
+    }
+    .div19{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        p{
+            display: flex;
+            box-sizing: border-box;
+            flex-wrap: wrap;
+            background-color: #0000008f;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 20px;
+        }
+    }
+    .div20{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        margin: 50px;
+        background-color: #0000008f ;
+        border-radius: 20px;
+    }
+    .div21{
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        margin: 50px;
+        input{
+            background-color: #000000b1;
+            padding: 5px;
+            border: none;
+            border: 1px solid #000;
+            border-radius: 20px;
+            color: map-get($colores , colorprincipal);
+        }
+
+    }
+    .div22{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        margin: 50px;
+        background-color: #0000008f ;
+        border-radius: 20px;
+    }
+    .div23{
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        border-bottom: 1px solid #000;
+        border-left: 1px solid #000;
+        display: grid;
+        justify-content: center;
+        align-content: end;
+        padding-bottom: 20px;
+    }
+    .div24{
+        grid-column-start: 6;
+        grid-column-end: 7;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        border-bottom: 1px solid #000;
+        border-left: 1px solid #000;
+        display: grid;
+        align-content: end;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+    .div25{
+        grid-column-start: 7;
+        grid-column-end: 8;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        border-bottom: 1px solid #000;
+        display: grid;
+        justify-content: end;
+        align-content: end;
+        padding-bottom: 20px;
+    }
+    .div26{
+        grid-column-start: 6;
+        grid-column-end: 7;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        border-bottom: 1px solid #000;
+        border-left: 1px solid #000;
+        display: grid;
+        justify-content: baseline;
+        align-content: center;
+        padding-left: 20px;
+    }
+    .div27{
+        grid-column-start: 7;
+        grid-column-end: 8;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        display: grid;
+        justify-content: center;
+        align-items: end;
+
+    }
+    .div28{
+        grid-column-start: 7;
+        grid-column-end: 8;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        border-bottom: 1px solid #000;
+        display: grid;
+        justify-content: baseline;
+        align-items: center;
+        h3{
+            &:hover{
+                transform: scale(1.1);
+            }   
+        }
+    }
+    .div29{
+        grid-column-start: 6;
+        grid-column-end: 7;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        display: grid;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    .div30{
+        grid-column-start: 7;
+        grid-column-end: 8;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        display: grid;
+        justify-content: end;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+    .div31{
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start: 6;
+        grid-row-end: 7;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        h3{
+            display: grid;
+            background-color: map-get($colores , fondoprincipal);
+            padding: 10px 60px;
+            border-radius: 20px;
+            margin: 10px 0px;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+    .div32{
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start: 7;
+        grid-row-end: 8;
+        border-bottom: 1px solid #000;
+        h3{
+            display: grid;
+            margin-left: 20px;
+        }
+    }
+    .div33{
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start: 8;
+        grid-row-end: 9;
+        display: grid;
+        input{
+            display: grid;
+            margin: 5px 20px;
+            padding: 10px;
+            border: none;
+            border: 1px solid #000;
+            border-radius: 20px;
+            background-color: #000000d1;
+            color: map-get($colores , colorprincipal);
+        }
+    }
+
+    .div34{
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start: 9;
+        grid-row-end: 10; 
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        h3{
+            display: grid;
+            background-color: map-get($colores , fondoprincipal);
+            padding: 10px 60px;
+            border-radius: 20px;
+            margin: 10px 0px;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+    .div35{
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 4;
+        grid-row-end: 10;
+        border-right:1px solid #000 ;
+        border-top:1px solid #000; 
+    }
+}

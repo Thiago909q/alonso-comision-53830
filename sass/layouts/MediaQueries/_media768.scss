@@ -1,0 +1,290 @@
+@media screen and (max-width:768px) {
+    .section1{
+        display:grid;
+        width: 100%;                                                                                                                                                          
+        grid-template-columns:repeat(3,1fr);
+        grid-template-rows:repeat(4,1fr);
+        grid-template-areas:
+        "div1 div2 div3"
+        "div4 div5 div6"
+        "div7 div8 div9"
+        "div10 div11 div12"
+        ;
+    
+    }
+    .grid-dos{
+        .div1contactanos{
+            display: flex;
+            flex-direction: row;
+            width: 200px;
+            height: 50px;
+            background-color: hsla(0, 0%, 0%, 0.5);
+            color: black;
+            justify-content: center;
+            align-items: center;
+            border-radius: 40px;   
+        }
+        .imagen-contactanos{
+            img{
+                height: 500px;
+                width: 100%;
+            }
+        }
+        .formulario1{
+            margin-top: 10px;
+            margin-bottom: 5px;
+            width: 600px;
+            padding: 10px;
+            margin: auto;
+        }
+    }
+    .tienda{
+        display: grid;
+        width: 100%;
+        min-height: 750px;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(14,1fr);
+        .div14{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            border-bottom: 1px solid #000;
+            display: grid;
+            justify-items: center;
+            align-items: end;
+            padding-bottom:20px ;
+        }
+        .div15{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        .div16{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            border-bottom: 1px solid #000;
+            display: grid;
+            justify-content: center;
+            align-content: end;
+            padding-bottom: 20px;
+        }
+        .div17{
+            display: none;
+        }
+        .div18{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            background-image:url(../assets/tisot2.png);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: center;
+            
+            
+        }
+        .div19{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 4;
+            grid-row-end: 5;
+            p{
+                display: flex;
+                box-sizing: border-box;
+                flex-wrap: wrap;
+                background-color: #0000008f;
+                margin: 15px;
+                padding: 15px;
+                border-radius: 20px;
+            }
+        }
+        .div20{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            margin: 50px;
+            background-color: #0000008f ;
+            border-radius: 20px;
+        }
+        .div21{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            margin: 50px;
+            input{
+                background-color: #0000008f;
+                padding: 5px;
+                border-radius: 20px;
+            }
+    
+        }
+        .div22{
+            display: none;
+        }
+        .div23{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 5;
+            grid-row-end: 6;
+            border-bottom: 1px solid #000;
+            border-left: none;
+            display: grid;
+            justify-content: center;
+            align-content: end;
+            padding-bottom: 20px;
+        }
+        .div24{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 6;
+            grid-row-end: 7;
+            border-bottom: 1px solid #000;
+            border-left: none;
+            display: grid;
+            align-content: end;
+            padding-bottom: 20px;
+            padding-left: 20px;
+        }
+        .div25{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 6;
+            grid-row-end: 7;
+            border-bottom: 1px solid #000;
+            display: grid;
+            justify-content: end;
+            align-content: end;
+            padding-bottom: 20px;
+            h5{
+                display: grid;
+                margin-right: 20px;
+            }
+        }
+        .div26{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 7;
+            grid-row-end: 9;
+            border-bottom: 1px solid #000;
+            border-left:none;
+            display: grid;
+            justify-content: baseline;
+            align-content: center;
+            padding-left: 20px;
+        }
+        .div27{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 7;
+            grid-row-end: 8;
+            display: grid;
+            justify-content: center;
+            align-items: end;
+    
+        }
+        .div28{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 8;
+            grid-row-end: 9;
+            border-bottom: 1px solid #000;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+        .div29{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 9;
+            grid-row-end: 10;
+            display: grid;
+            padding-top: 10px;
+            padding-left: 20px;
+        }
+        .div30{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 9;
+            grid-row-end: 10;
+            display: grid;
+            padding-top: 10px;
+            h5{
+                display: grid;
+                margin-right: 20px;
+            }
+        }
+        .div31{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 10;
+            grid-row-end: 11;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            h3{
+                display: grid;
+                background-color: map-get($colores , fondoprincipal);
+                padding: 10px 60px;
+                border-radius: 20px;
+                margin: 10px 0px;
+            }
+        }
+        .div32{
+            display: grid;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 11;
+            grid-row-end: 12;
+            border-bottom: 1px solid #000;
+            align-items: end;
+            h3{
+                display: grid;
+                margin-left: 20px;
+                margin-bottom: 20px;
+            }
+        }
+        .div33{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 12;
+            grid-row-end: 13;
+            margin: 40px 15px;
+        }
+    
+        .div34{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 13;
+            grid-row-end: 14; 
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            h3{
+                display: grid;
+                background-color: map-get($colores , fondoprincipal);
+                padding: 10px 60px;
+                border-radius: 20px;
+                margin: 10px 0px;
+                justify-content: center;
+                align-content: center;
+                justify-items: center;
+                align-items: center;
+            }
+        }
+        .div35{
+            display: none;
+        }
+    }
+}
