@@ -368,7 +368,7 @@ body {
   height: 500px; }
 
 .conocenos .divconocenos2 {
-  margin: 5px 10px;
+  margin: 0px 0px;
   border: 5px;
   border-radius: 10px;
   background-color: #000000c7; }
@@ -414,7 +414,8 @@ body {
     width: 100%;
     border-radius: 20px;
     border: 2px solid black;
-    color: #DA7600; }
+    color: #DA7600;
+    resize: none; }
   .grid-dos .formulario1 .div2contactanos button {
     margin-bottom: 10px;
     padding: 10px;
@@ -681,7 +682,7 @@ body {
 
 footer {
   background-color: #DA7600;
-  min-height: 180px; }
+  min-height: 130px; }
   footer .contenedor-footer {
     display: flex;
     flex-direction: row;
